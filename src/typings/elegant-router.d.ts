@@ -23,7 +23,6 @@ declare module "@elegant-router/types" {
     "ai-tools": "/ai-tools";
     "chats": "/chats";
     "copilot": "/copilot";
-    "home": "/home";
     "iframe-page": "/iframe-page/:url";
     "login": "/login/:module(pwd-login|code-login|register|reset-pwd|bind-wechat)?";
   };
