@@ -7,72 +7,90 @@ import type { GeneratedRoute } from '@elegant-router/types';
 
 export const generatedRoutes: GeneratedRoute[] = [
   {
-    name: '403',
-    path: '/403',
-    component: 'layout.blank$view.403',
+    name: "403",
+    path: "/403",
+    component: "layout.blank$view.403",
     meta: {
-      title: '403',
-      i18nKey: 'route.403',
-      constant: true,
-      hideInMenu: true
-    }
-  },
-  {
-    name: '404',
-    path: '/404',
-    component: 'layout.blank$view.404',
-    meta: {
-      title: '404',
-      i18nKey: 'route.404',
-      constant: true,
-      hideInMenu: true
-    }
-  },
-  {
-    name: '500',
-    path: '/500',
-    component: 'layout.blank$view.500',
-    meta: {
-      title: '500',
-      i18nKey: 'route.500',
-      constant: true,
-      hideInMenu: true
-    }
-  },
-  {
-    name: 'chats',
-    path: '/chats',
-    component: 'layout.base$view.chats',
-    meta: {
-      title: 'chats',
-      i18nKey: 'route.chats',
-      icon: 'line-md:chat',
-      order: 1
-    }
-  },
-  {
-    name: 'iframe-page',
-    path: '/iframe-page/:url',
-    component: 'layout.base$view.iframe-page',
-    props: true,
-    meta: {
-      title: 'iframe-page',
-      i18nKey: 'route.iframe-page',
+      title: "403",
+      i18nKey: "route.403",
       constant: true,
       hideInMenu: true,
-      keepAlive: true
-    }
+    },
   },
   {
-    name: 'login',
-    path: '/login/:module(pwd-login|code-login|register|reset-pwd|bind-wechat)?',
-    component: 'layout.blank$view.login',
+    name: "404",
+    path: "/404",
+    component: "layout.blank$view.404",
+    meta: {
+      title: "404",
+      i18nKey: "route.404",
+      constant: true,
+      hideInMenu: true,
+    },
+  },
+  {
+    name: "500",
+    path: "/500",
+    component: "layout.blank$view.500",
+    meta: {
+      title: "500",
+      i18nKey: "route.500",
+      constant: true,
+      hideInMenu: true,
+    },
+  },
+  {
+    name: "ai-tools",
+    path: "/ai-tools",
+    component: "layout.base$view.ai-tools",
+    meta: {
+      title: "ai-tools",
+      i18nKey: "route.ai-tools",
+    },
+  },
+  {
+    name: "chats",
+    path: "/chats",
+    component: "layout.base$view.chats",
+    meta: {
+      title: "chats",
+      i18nKey: "route.chats",
+      icon: "line-md:chat",
+      order: 1,
+    },
+  },
+  {
+    name: "copilot",
+    path: "/copilot",
+    component: "layout.base$view.copilot",
+    meta: {
+      title: "copilot",
+      i18nKey: "route.copilot",
+    },
+  },
+  {
+    name: "iframe-page",
+    path: "/iframe-page/:url",
+    component: "layout.base$view.iframe-page",
     props: true,
     meta: {
-      title: 'login',
-      i18nKey: 'route.login',
+      title: "iframe-page",
+      i18nKey: "route.iframe-page",
       constant: true,
-      hideInMenu: true
-    }
-  }
+      hideInMenu: true,
+      keepAlive: true,
+    },
+  },
+  {
+    name: "login",
+    path: "/login/:module(pwd-login|code-login|register|reset-pwd|bind-wechat)?",
+    component: "layout.blank$view.login",
+    props: true,
+    meta: {
+      title: "login",
+      i18nKey: "route.login",
+      constant: true,
+      hideInMenu: true,
+    },
+  },
 ];

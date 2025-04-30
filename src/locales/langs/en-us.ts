@@ -161,9 +161,11 @@ const local: App.I18n.Schema = {
     403: 'No Permission',
     404: 'Page Not Found',
     500: 'Server Error',
-    'iframe-page': 'Iframe',
+    'iframe-page': 'Iframe Page',
     home: 'Home',
-    chats: 'Chats'
+    chats: 'Chats',
+    copilot: 'Copilot',
+    'ai-tools': 'AI Tools'
   },
   page: {
     login: {

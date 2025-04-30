@@ -163,7 +163,9 @@ const local: App.I18n.Schema = {
     500: '服务器错误',
     'iframe-page': '外链页面',
     home: '首页',
-    chats: '聊天'
+    chats: '聊天',
+    copilot: 'Copilot',
+    'ai-tools': 'AI工具'
   },
   page: {
     login: {
