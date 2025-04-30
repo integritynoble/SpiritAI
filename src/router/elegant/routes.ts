@@ -40,21 +40,21 @@ export const generatedRoutes: GeneratedRoute[] = [
     }
   },
   {
-    name: 'ai-tools',
-    path: '/ai-tools',
-    component: 'layout.base$view.ai-tools',
-    meta: {
-      title: 'ai-tools',
-      i18nKey: 'route.ai-tools'
-    }
-  },
-  {
     name: 'copilot',
     path: '/copilot',
     component: 'layout.base$view.copilot',
     meta: {
       title: 'copilot',
       i18nKey: 'route.copilot'
+    }
+  },
+  {
+    name: 'ai-tools',
+    path: '/ai-tools',
+    component: 'layout.base$view.ai-tools',
+    meta: {
+      title: 'ai-tools',
+      i18nKey: 'route.ai-tools'
     }
   },
   {
