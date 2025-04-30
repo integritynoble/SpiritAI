@@ -21,7 +21,6 @@ declare module "@elegant-router/types" {
     "404": "/404";
     "500": "/500";
     "ai-tools": "/ai-tools";
-    "chats": "/chats";
     "copilot": "/copilot";
     "iframe-page": "/iframe-page/:url";
     "login": "/login/:module(pwd-login|code-login|register|reset-pwd|bind-wechat)?";
@@ -60,7 +59,6 @@ declare module "@elegant-router/types" {
     | "404"
     | "500"
     | "ai-tools"
-    | "chats"
     | "copilot"
     | "iframe-page"
     | "login"
@@ -86,7 +84,6 @@ declare module "@elegant-router/types" {
     | "iframe-page"
     | "login"
     | "ai-tools"
-    | "chats"
     | "copilot"
   >;
 
