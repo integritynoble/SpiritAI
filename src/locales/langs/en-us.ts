@@ -1,9 +1,9 @@
 const local: App.I18n.Schema = {
   system: {
-    title: 'Open Agents',
-    updateTitle: 'System Version Update Notification',
-    updateContent: 'A new version of the system has been detected. Do you want to refresh the page immediately?',
-    updateConfirm: 'Refresh immediately',
+    title: 'SpiritAI',
+    updateTitle: 'System Version Update Notice',
+    updateContent: 'A new version of the system has been released, refresh the page now?',
+    updateConfirm: 'Refresh Now',
     updateCancel: 'Later'
   },
   common: {
